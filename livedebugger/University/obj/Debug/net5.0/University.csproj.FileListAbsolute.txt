@@ -1,0 +1,12 @@
+/home/mihnea/livedebugger/livedebugger/University/obj/Debug/net5.0/University.csproj.AssemblyReference.cache
+/home/mihnea/livedebugger/livedebugger/University/obj/Debug/net5.0/University.GeneratedMSBuildEditorConfig.editorconfig
+/home/mihnea/livedebugger/livedebugger/University/obj/Debug/net5.0/University.AssemblyInfoInputs.cache
+/home/mihnea/livedebugger/livedebugger/University/obj/Debug/net5.0/University.AssemblyInfo.cs
+/home/mihnea/livedebugger/livedebugger/University/obj/Debug/net5.0/University.csproj.CoreCompileInputs.cache
+/home/mihnea/livedebugger/livedebugger/University/bin/Debug/net5.0/University.deps.json
+/home/mihnea/livedebugger/livedebugger/University/bin/Debug/net5.0/University.dll
+/home/mihnea/livedebugger/livedebugger/University/bin/Debug/net5.0/ref/University.dll
+/home/mihnea/livedebugger/livedebugger/University/bin/Debug/net5.0/University.pdb
+/home/mihnea/livedebugger/livedebugger/University/obj/Debug/net5.0/University.dll
+/home/mihnea/livedebugger/livedebugger/University/obj/Debug/net5.0/ref/University.dll
+/home/mihnea/livedebugger/livedebugger/University/obj/Debug/net5.0/University.pdb
