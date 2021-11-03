@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/mihnea/livedebugger/livedebugger/University.Tests/University.Tests.csproj",
         "projectName": "University.Tests",
         "projectPath": "/home/mihnea/livedebugger/livedebugger/University.Tests/University.Tests.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/mihnea/.nuget/packages/",
         "outputPath": "/home/mihnea/livedebugger/livedebugger/University.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/mihnea/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -88,11 +88,11 @@
         "projectUniqueName": "/home/mihnea/livedebugger/livedebugger/University/University.csproj",
         "projectName": "University",
         "projectPath": "/home/mihnea/livedebugger/livedebugger/University/University.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/mihnea/.nuget/packages/",
         "outputPath": "/home/mihnea/livedebugger/livedebugger/University/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/mihnea/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
