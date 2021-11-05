@@ -6,6 +6,7 @@ pipeline {
             steps
             {
                 echo "Starting Build stage"
+                sh "cd livedebugger"
                 sh "dotnet build"
             }
             post {
@@ -21,6 +22,7 @@ pipeline {
         stage ("Test") {
             steps {
                 echo "Starting Test stage"
+                sh "cd livedebugger"
                 sh "dotnet test"
             }
 
