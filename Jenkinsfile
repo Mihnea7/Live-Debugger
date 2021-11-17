@@ -6,7 +6,7 @@ pipeline {
             steps
             {
                 echo "Starting Build stage"
-                sh "dotnet build livedebugger"
+                sh "dotnet build sample_project"
             }
             post {
                 failure {
@@ -21,7 +21,7 @@ pipeline {
         stage ("Test") {
             steps {
                 echo "Starting Test stage"
-                sh "dotnet test livedebugger"
+                sh "dotnet test sample_project"
             }
 
             post {
