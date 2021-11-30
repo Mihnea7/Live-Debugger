@@ -8,7 +8,7 @@ pipeline {
                 echo "Starting Build stage"
                 sh '''
                     chmod +x build_project.sh
-                    ./build_project
+                    ./build_project.sh
                 '''
             }
             post {
@@ -26,7 +26,7 @@ pipeline {
                 echo "Starting Test stage"
                 sh '''
                     chmod +x test_project.sh
-                    ./test_project
+                    ./test_project.sh
                 '''
             }
 
