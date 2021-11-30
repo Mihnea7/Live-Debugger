@@ -6,7 +6,10 @@ pipeline {
             steps
             {
                 echo "Starting Build stage"
-                sh "dotnet build sample_project"
+                sh '''
+                    chmod +x build_project.sh
+                    ./build_project
+                '''
             }
             post {
                 failure {
@@ -21,7 +24,10 @@ pipeline {
         stage ("Test") {
             steps {
                 echo "Starting Test stage"
-                sh "dotnet test sample_project"
+                sh '''
+                    chmod +x test_project.sh
+                    ./test_project
+                '''
             }
 
             post {

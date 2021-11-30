@@ -59,6 +59,8 @@ GitHub webhooks are necessary in order to automatically trigger the pipeline whe
 ### Jenkins Set-Up
 The configuration I employed uses a Jenkinsfile in the local repository that defines the instructions to be executed by the pipeline. 
 
+When installing Jenkins, it is recommended to install the suggested plugins. In addition to those, jGit is also necessary to ensure the pipeline links with the Github repository correctly. To manually install jGit, in the Jenkins Dashboard, navigate to Manage Jenkins -> Global Tool Configuration. Under the Git section, click Add Git and select jGit.
+
 Navigate to the Jenkins URL and create a new item. Name it accordingly, then select Pipeline Project.
 
 Under General Settings, tick Github Project and write the project repository's URL.  Under Build Triggers, tick Github hook trigger for GITScm polling. 
