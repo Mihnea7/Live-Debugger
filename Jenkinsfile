@@ -7,6 +7,7 @@ pipeline {
             {
                 echo "Starting Build stage"
                 sh '''
+                    export PATH=/usr/share/dotnet:$PATH
                     chmod +x build_project.sh
                     ./build_project.sh
                 '''
@@ -25,6 +26,7 @@ pipeline {
             steps {
                 echo "Starting Test stage"
                 sh '''
+                    export PATH=/usr/share/dotnet:$PATH
                     chmod +x test_project.sh
                     ./test_project.sh
                 '''
