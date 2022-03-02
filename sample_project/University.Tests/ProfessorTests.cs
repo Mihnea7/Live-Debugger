@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using System.Collections;
+using System.IO;
 
 namespace University.Tests
 {
@@ -39,8 +40,18 @@ namespace University.Tests
             Student student_1 = new Student("Mihnea", "Maldaianu", 60, courses_1);
             Student student_2 = new Student("John", "Doe", 60, courses_2);
             Professor prof = new Professor("Bryan Jack", new ArrayList(){student_1, student_2});
-            Assert.True(Math.Round(prof.getProfessorPerformance(),2) == 19, "Professor performance should be 18.66");
+            Assert.True(Math.Round(prof.getProfessorPerformance(),2) == 18.67, "Professor performance should be 18.67");
         }
         
+        [Fact]
+        public void input_file_test()
+        {
+            int number = 0;
+            using (TextReader reader = File.OpenText("input.txt"))
+            {
+                number = int.Parse(reader.ReadLine());
+            }
+            Assert.True((number * number) == 25, "Number squared should be 25");
+        }
     }
 }
