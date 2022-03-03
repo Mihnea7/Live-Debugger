@@ -8,6 +8,8 @@ pipeline {
                 echo "Starting Build stage"
                 sh '''
                     export PATH=/usr/share/dotnet:$PATH
+                    export TMPDIR=/tmp/NuGetScratch
+                    mkdir -p ${TMPDIR}
                     chmod +x build_project.sh
                     sudo ./build_project.sh
                 '''
